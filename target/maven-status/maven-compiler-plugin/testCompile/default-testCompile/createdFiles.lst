@@ -1,0 +1,14 @@
+Test\CustomerLoginTest.class
+Pages\HrmsPage.class
+TestBase\TestBaseLuma.class
+Pages\CartPage.class
+Pages\CustomerLoginPage.class
+Pages\HomePage.class
+Test\CartPageTest.class
+Test\ProfilePageTest.class
+TestBase\TestBaseHrms.class
+Pages\CreateNewCustomerAccountPage.class
+Test\CreateanAccountTest.class
+Pages\ProfilePage.class
+Test\HomePageTest.class
+Test\HrmsTest.class

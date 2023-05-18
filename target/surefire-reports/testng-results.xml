@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-17T10:19:10 IST" name="Surefire suite" finished-at="2023-05-17T10:21:22 IST" duration-ms="132384">
+    <groups>
+    </groups>
+    <test started-at="2023-05-17T10:19:10 IST" name="Surefire test" finished-at="2023-05-17T10:21:22 IST" duration-ms="132384">
+      <class name="Test.HrmsTest">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Test.HrmsTest@1534f01b]" started-at="2023-05-17T10:19:06 IST" name="Launch" finished-at="2023-05-17T10:19:10 IST" duration-ms="4057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method is-config="true" signature="generateReportinit()[pri:0, instance:Test.HrmsTest@1534f01b]" started-at="2023-05-17T10:19:10 IST" name="generateReportinit" finished-at="2023-05-17T10:19:10 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReportinit -->
+        <test-method signature="Login_with_valid_credentials()[pri:1, instance:Test.HrmsTest@1534f01b]" started-at="2023-05-17T10:19:10 IST" name="Login_with_valid_credentials" finished-at="2023-05-17T10:19:40 IST" duration-ms="30478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_valid_credentials -->
+        <test-method signature="search_member1()[pri:2, instance:Test.HrmsTest@1534f01b]" started-at="2023-05-17T10:19:40 IST" name="search_member1" finished-at="2023-05-17T10:19:54 IST" duration-ms="13377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_member1 -->
+        <test-method signature="update_email_user1()[pri:3, instance:Test.HrmsTest@1534f01b]" started-at="2023-05-17T10:19:54 IST" name="update_email_user1" finished-at="2023-05-17T10:20:06 IST" duration-ms="11772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_email_user1 -->
+        <test-method signature="search_member2()[pri:4, instance:Test.HrmsTest@1534f01b]" started-at="2023-05-17T10:20:06 IST" name="search_member2" finished-at="2023-05-17T10:20:18 IST" duration-ms="12221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_member2 -->
+        <test-method signature="update_email_user2()[pri:5, instance:Test.HrmsTest@1534f01b]" started-at="2023-05-17T10:20:18 IST" name="update_email_user2" finished-at="2023-05-17T10:20:27 IST" duration-ms="8888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_email_user2 -->
+        <test-method signature="search_member3()[pri:6, instance:Test.HrmsTest@1534f01b]" started-at="2023-05-17T10:20:27 IST" name="search_member3" finished-at="2023-05-17T10:20:40 IST" duration-ms="13185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_member3 -->
+        <test-method signature="update_email_user3()[pri:7, instance:Test.HrmsTest@1534f01b]" started-at="2023-05-17T10:20:40 IST" name="update_email_user3" finished-at="2023-05-17T10:20:49 IST" duration-ms="9102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_email_user3 -->
+        <test-method signature="search_member4()[pri:8, instance:Test.HrmsTest@1534f01b]" started-at="2023-05-17T10:20:49 IST" name="search_member4" finished-at="2023-05-17T10:21:13 IST" duration-ms="24337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_member4 -->
+        <test-method signature="update_email_user4()[pri:9, instance:Test.HrmsTest@1534f01b]" started-at="2023-05-17T10:21:13 IST" name="update_email_user4" finished-at="2023-05-17T10:21:22 IST" duration-ms="8652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_email_user4 -->
+        <test-method is-config="true" signature="generateReportend()[pri:0, instance:Test.HrmsTest@1534f01b]" started-at="2023-05-17T10:21:22 IST" name="generateReportend" finished-at="2023-05-17T10:21:22 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReportend -->
+        <test-method is-config="true" signature="Close_quit()[pri:0, instance:Test.HrmsTest@1534f01b]" started-at="2023-05-17T10:21:22 IST" name="Close_quit" finished-at="2023-05-17T10:21:23 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_quit -->
+      </class> <!-- Test.HrmsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\tasharma\AppData\Local\Temp\testng-eclipse--1807367310\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="create_an_account_with_empty_confirmpassword">create_an_account_with_empty_confirmpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="create_an_account_with_empty_email">create_an_account_with_empty_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="create_an_account_with_empty_firstname">create_an_account_with_empty_firstname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="create_an_account_with_empty_lastname">create_an_account_with_empty_lastname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="create_an_account_with_empty_password">create_an_account_with_empty_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="create_an_account_with_invalid_email">create_an_account_with_invalid_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="create_an_account_with_invalid_password">create_an_account_with_invalid_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="create_an_account_with_unchecked_Signupfornewsletter_checkbox">create_an_account_with_unchecked_Signupfornewsletter_checkbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="create_an_account_with_valid_credentials">create_an_account_with_valid_credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="forgotpassword_redirection">forgotpassword_redirection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="navigate_to_homepage_click_on_createanaccount">navigate_to_homepage_click_on_createanaccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="subscribe_button_functionality">subscribe_button_functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="verify_label_SignUpForNewsletter_on_Page">verify_label_SignUpForNewsletter_on_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="verify_label_confirmpassword_on_Page">verify_label_confirmpassword_on_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="verify_label_email_on_Page">verify_label_email_on_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="verify_label_firstname_on_Page">verify_label_firstname_on_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="verify_label_lastname_on_Page">verify_label_lastname_on_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="verify_label_password_on_Page">verify_label_password_on_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="visibility_Create_new_customer_account_header">visibility_Create_new_customer_account_header</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="visibility_luma_logo">visibility_luma_logo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="visibility_personal_information_header">visibility_personal_information_header</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CreateanAccountTest" class="method navigator-link" hash-for-method="visibility_sign_in_information_header">visibility_sign_in_information_header</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.CreateanAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_an_account_with_empty_confirmpassword">
+                  </a> <!-- create_an_account_with_empty_confirmpassword -->
+                  <span class="method-name">create_an_account_with_empty_confirmpassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_an_account_with_empty_email">
+                  </a> <!-- create_an_account_with_empty_email -->
+                  <span class="method-name">create_an_account_with_empty_email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_an_account_with_empty_firstname">
+                  </a> <!-- create_an_account_with_empty_firstname -->
+                  <span class="method-name">create_an_account_with_empty_firstname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_an_account_with_empty_lastname">
+                  </a> <!-- create_an_account_with_empty_lastname -->
+                  <span class="method-name">create_an_account_with_empty_lastname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_an_account_with_empty_password">
+                  </a> <!-- create_an_account_with_empty_password -->
+                  <span class="method-name">create_an_account_with_empty_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_an_account_with_invalid_email">
+                  </a> <!-- create_an_account_with_invalid_email -->
+                  <span class="method-name">create_an_account_with_invalid_email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_an_account_with_invalid_password">
+                  </a> <!-- create_an_account_with_invalid_password -->
+                  <span class="method-name">create_an_account_with_invalid_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_an_account_with_unchecked_Signupfornewsletter_checkbox">
+                  </a> <!-- create_an_account_with_unchecked_Signupfornewsletter_checkbox -->
+                  <span class="method-name">create_an_account_with_unchecked_Signupfornewsletter_checkbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_an_account_with_valid_credentials">
+                  </a> <!-- create_an_account_with_valid_credentials -->
+                  <span class="method-name">create_an_account_with_valid_credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotpassword_redirection">
+                  </a> <!-- forgotpassword_redirection -->
+                  <span class="method-name">forgotpassword_redirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigate_to_homepage_click_on_createanaccount">
+                  </a> <!-- navigate_to_homepage_click_on_createanaccount -->
+                  <span class="method-name">navigate_to_homepage_click_on_createanaccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subscribe_button_functionality">
+                  </a> <!-- subscribe_button_functionality -->
+                  <span class="method-name">subscribe_button_functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_label_SignUpForNewsletter_on_Page">
+                  </a> <!-- verify_label_SignUpForNewsletter_on_Page -->
+                  <span class="method-name">verify_label_SignUpForNewsletter_on_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_label_confirmpassword_on_Page">
+                  </a> <!-- verify_label_confirmpassword_on_Page -->
+                  <span class="method-name">verify_label_confirmpassword_on_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_label_email_on_Page">
+                  </a> <!-- verify_label_email_on_Page -->
+                  <span class="method-name">verify_label_email_on_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_label_firstname_on_Page">
+                  </a> <!-- verify_label_firstname_on_Page -->
+                  <span class="method-name">verify_label_firstname_on_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_label_lastname_on_Page">
+                  </a> <!-- verify_label_lastname_on_Page -->
+                  <span class="method-name">verify_label_lastname_on_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_label_password_on_Page">
+                  </a> <!-- verify_label_password_on_Page -->
+                  <span class="method-name">verify_label_password_on_Page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="visibility_Create_new_customer_account_header">
+                  </a> <!-- visibility_Create_new_customer_account_header -->
+                  <span class="method-name">visibility_Create_new_customer_account_header</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="visibility_luma_logo">
+                  </a> <!-- visibility_luma_logo -->
+                  <span class="method-name">visibility_luma_logo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="visibility_personal_information_header">
+                  </a> <!-- visibility_personal_information_header -->
+                  <span class="method-name">visibility_personal_information_header</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="visibility_sign_in_information_header">
+                  </a> <!-- visibility_sign_in_information_header -->
+                  <span class="method-name">visibility_sign_in_information_header</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\tasharma\AppData\Local\Temp\testng-eclipse--1807367310\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.CreateanAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'create_an_account_with_unchecked_Signupfornewsletter_checkbox')
+data.setCell(0, 2, 'Test.CreateanAccountTest')
+data.setCell(0, 3, 16250);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'create_an_account_with_empty_email')
+data.setCell(1, 2, 'Test.CreateanAccountTest')
+data.setCell(1, 3, 15605);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'create_an_account_with_empty_firstname')
+data.setCell(2, 2, 'Test.CreateanAccountTest')
+data.setCell(2, 3, 14336);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'create_an_account_with_empty_lastname')
+data.setCell(3, 2, 'Test.CreateanAccountTest')
+data.setCell(3, 3, 13540);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'create_an_account_with_invalid_password')
+data.setCell(4, 2, 'Test.CreateanAccountTest')
+data.setCell(4, 3, 13262);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'create_an_account_with_empty_confirmpassword')
+data.setCell(5, 2, 'Test.CreateanAccountTest')
+data.setCell(5, 3, 12340);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'create_an_account_with_invalid_email')
+data.setCell(6, 2, 'Test.CreateanAccountTest')
+data.setCell(6, 3, 12316);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'create_an_account_with_empty_password')
+data.setCell(7, 2, 'Test.CreateanAccountTest')
+data.setCell(7, 3, 12133);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'subscribe_button_functionality')
+data.setCell(8, 2, 'Test.CreateanAccountTest')
+data.setCell(8, 3, 5866);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'create_an_account_with_valid_credentials')
+data.setCell(9, 2, 'Test.CreateanAccountTest')
+data.setCell(9, 3, 5353);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'forgotpassword_redirection')
+data.setCell(10, 2, 'Test.CreateanAccountTest')
+data.setCell(10, 3, 3282);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'navigate_to_homepage_click_on_createanaccount')
+data.setCell(11, 2, 'Test.CreateanAccountTest')
+data.setCell(11, 3, 1509);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verify_label_password_on_Page')
+data.setCell(12, 2, 'Test.CreateanAccountTest')
+data.setCell(12, 3, 96);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verify_label_confirmpassword_on_Page')
+data.setCell(13, 2, 'Test.CreateanAccountTest')
+data.setCell(13, 3, 61);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'visibility_luma_logo')
+data.setCell(14, 2, 'Test.CreateanAccountTest')
+data.setCell(14, 3, 43);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verify_label_lastname_on_Page')
+data.setCell(15, 2, 'Test.CreateanAccountTest')
+data.setCell(15, 3, 36);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verify_label_SignUpForNewsletter_on_Page')
+data.setCell(16, 2, 'Test.CreateanAccountTest')
+data.setCell(16, 3, 36);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verify_label_email_on_Page')
+data.setCell(17, 2, 'Test.CreateanAccountTest')
+data.setCell(17, 3, 34);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'visibility_Create_new_customer_account_header')
+data.setCell(18, 2, 'Test.CreateanAccountTest')
+data.setCell(18, 3, 33);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'visibility_personal_information_header')
+data.setCell(19, 2, 'Test.CreateanAccountTest')
+data.setCell(19, 3, 33);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verify_label_firstname_on_Page')
+data.setCell(20, 2, 'Test.CreateanAccountTest')
+data.setCell(20, 3, 31);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'visibility_sign_in_information_header')
+data.setCell(21, 2, 'Test.CreateanAccountTest')
+data.setCell(21, 3, 29);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.CreateanAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">generateReportinit</span>
+                <span class="method-start">6728 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">navigate_to_homepage_click_on_createanaccount</span>
+                <span class="method-start">6818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">visibility_luma_logo</span>
+                <span class="method-start">8332 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">visibility_Create_new_customer_account_header</span>
+                <span class="method-start">8376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">visibility_personal_information_header</span>
+                <span class="method-start">8411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">visibility_sign_in_information_header</span>
+                <span class="method-start">8446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_label_firstname_on_Page</span>
+                <span class="method-start">8476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_label_lastname_on_Page</span>
+                <span class="method-start">8508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_label_SignUpForNewsletter_on_Page</span>
+                <span class="method-start">8545 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_label_email_on_Page</span>
+                <span class="method-start">8582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_label_password_on_Page</span>
+                <span class="method-start">8617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_label_confirmpassword_on_Page</span>
+                <span class="method-start">8714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">create_an_account_with_valid_credentials</span>
+                <span class="method-start">8776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">forgotpassword_redirection</span>
+                <span class="method-start">14131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subscribe_button_functionality</span>
+                <span class="method-start">17414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">create_an_account_with_empty_firstname</span>
+                <span class="method-start">23281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">create_an_account_with_empty_lastname</span>
+                <span class="method-start">37617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">create_an_account_with_unchecked_Signupfornewsletter_checkbox</span>
+                <span class="method-start">51158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">create_an_account_with_empty_email</span>
+                <span class="method-start">67409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">create_an_account_with_empty_password</span>
+                <span class="method-start">83016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">create_an_account_with_empty_confirmpassword</span>
+                <span class="method-start">95150 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">create_an_account_with_invalid_email</span>
+                <span class="method-start">107491 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">create_an_account_with_invalid_password</span>
+                <span class="method-start">119808 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">generateReportend</span>
+                <span class="method-start">133071 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">Close_quit</span>
+                <span class="method-start">133276 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

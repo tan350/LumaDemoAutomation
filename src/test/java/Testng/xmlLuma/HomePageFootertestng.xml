@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Test.HomePageTest">
+		   <methods>
+			  <include name="count_link_in_footer"></include>
+			  <include name="orders_and_returns_in_footer"></include>
+			  <include name="search_terms_redirection"></include>
+			  <include name="privacy_and_cookie_policy_redirection"></include>
+			  <include name="advanced_search_redirection"></include>
+			  <include name="contact_us_redirection"></include>
+		  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
